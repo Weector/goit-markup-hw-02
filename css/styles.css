@@ -10,17 +10,27 @@
   --fourth-background-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
+
 /* body */
 
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
-/*  logo header & footer */
+/*  logo and background of header & footer */
 
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo-black {
@@ -35,14 +45,19 @@ body {
   list-style: none;
 }
 
-.header {
-  background-color: var(--white-color);
+.header-bg {
+  background-color: var(--fourth-background-color);
 }
 
 /* site-nav */
 
 .site-nav a {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav a:hover,
@@ -56,6 +71,10 @@ body {
 
 .auth-nav a {
   color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .auth-nav a:hover,
@@ -65,56 +84,115 @@ body {
 
 /* button */
 
-.button {
+.section .button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.section .filter {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.section .filter:focus,
+.filter:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
 
-.filtter:hover,
-.filter:active {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
 /* section */
 
-.hero {
+.hero-bg {
   background-color: var(--third-background-color);
 }
 
-.hero-title {
+.section .hero-title {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.section-hidden {
+.section .title-hidden {
   visibility: hidden;
 }
 
-.section-title {
+.section .benefit {
   color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section .benefit-reason {
+  line-height: 1.71;
+}
+.section .section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
-.section-benefit .benefit {
-  color: var(--title-text-color);
-}
-
-.section-team .employee {
-  color: var(--title-text-color);
-}
-
-.section-team {
+.team-bg {
   background-color: var(--secondary-background-color);
+}
+.section .employee-name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section .employee-position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* portfolio section */
+
+.section .image-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section .affiliation {
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* footer */
 
-.footer {
+.footer-bg {
   background-color: var(--third-background-color);
 }
 
-.address {
+.footer .address {
   color: var(--white-color);
+  font-style: normal;
+  line-height: 1.71;
 }
 
-.address a {
+.footer .address a {
   color: var(--footer-contact-color);
+  text-decoration: none;
 }
