@@ -11,6 +11,12 @@
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
+/* list style */
+
+.list {
+  list-style: none;
+}
+
 /* body */
 
 body {
@@ -39,10 +45,6 @@ body {
 
 .logo-white {
   color: var(--white-color);
-}
-
-.list {
-  list-style: none;
 }
 
 .header-bg {
@@ -84,7 +86,7 @@ body {
 
 /* button */
 
-.section .button {
+.section .btn {
   background-color: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
