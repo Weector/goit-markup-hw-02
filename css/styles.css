@@ -7,7 +7,6 @@
   --background-color: #e5e5e5;
   --secondary-background-color: #f5f4fa;
   --third-background-color: #2f303a;
-  --fourth-background-color: #ffffff;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -48,7 +47,7 @@ body {
 }
 
 .header-bg {
-  background-color: var(--fourth-background-color);
+  background-color: var(--white-color);
 }
 
 /* site-nav */
