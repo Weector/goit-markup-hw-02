@@ -191,6 +191,7 @@ body {
   color: var(--white-color);
   font-style: normal;
   line-height: 1.71;
+  text-decoration: none;
 }
 
 .address .footer-link {
