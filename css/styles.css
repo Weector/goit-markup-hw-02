@@ -28,7 +28,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*  logo and background of header & footer */
+/*  logo header & footer */
 
 .logo {
   color: var(--accent-color);
@@ -97,6 +97,8 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* Filter button */
+
 .section .filter {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
@@ -108,7 +110,7 @@ body {
 }
 
 .section .filter:focus,
-.filter:hover {
+.section .filter:hover {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
@@ -159,6 +161,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
+
 .section .employee-position {
   font-size: 16px;
   line-height: 1.19;
@@ -184,7 +187,7 @@ body {
   background-color: var(--third-background-color);
 }
 
-.footer .address {
+.footer .footer-adress {
   color: var(--white-color);
   font-style: normal;
   line-height: 1.71;
