@@ -185,14 +185,14 @@ body {
   background-color: var(--third-background-color);
 }
 
-.footer .footer-adress {
+.footer .footer-address {
   color: var(--white-color);
   font-style: normal;
   line-height: 1.71;
   text-decoration: none;
 }
 
-.adress .footer-link {
+.address .footer-link {
   color: var(--footer-contact-color);
   font-style: normal;
   line-height: 1.71;
